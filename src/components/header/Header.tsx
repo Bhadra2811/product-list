@@ -7,7 +7,7 @@ import { HiOutlineSearch } from "react-icons/hi";
 import { SlLocationPin } from "react-icons/sl";
 import Link from "next/link";
 import { useSelector, useDispatch } from "react-redux";
-import { stateProps } from "../../../../product-list/type";
+import { stateProps } from "../../../type";
 import { useSession, signIn, signOut } from "next-auth/react";
 import { useEffect } from "react";
 import { addUser } from "@/store/nextSlice";
